@@ -1,10 +1,10 @@
 ## bubble
 
-This package and the bitcoinFinance package will be the companion materials for a textbook I am working on. This forthcoming book wants to
+The `bubble` package and the `bitcoinFinance` package will be the companion materials for a textbook I am working on. This forthcoming book wants to
 organize the materials that I developed over time for the Perm Summer/Winter School on Blockchain and CryptoEconomics, as well as for my course in Numerical
 methods for finance using R.
 
-The bubble package implements several models proposed to test for financial bubbles and explosive behavior. These tests span several fields of research, 
+The `bubble` package implements several models proposed to test for financial bubbles and explosive behavior. These tests span several fields of research, 
   from economics to econophysics, from statistics to computer science.
   
 Note that the functions computing the DS LPPLS Confidence and Trust indicators and the critical values for the GSADF test requires a lot 
