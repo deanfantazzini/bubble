@@ -1,0 +1,27 @@
+Package: bubble
+Type: Package
+Title: Tests for financial bubbles and explosive behavior
+Version: 0.1.0
+Author: Dean Fantazzini
+Maintainer: Dean Fantazzini <dean.fantazzini@gmail.com>
+Description: The package implements several models proposed to test for financial bubbles 
+  and explosive behavior. These tests span several fields of research, 
+  from economics to econophysics, from statistics to computer science.
+Depends: R (>= 3.0.0)
+License: GPL-3
+Imports:
+    pbapply,
+    urca,
+    MASS,
+    doParallel,
+    foreach,
+    parallel,
+    grDevices,
+    stats,
+    zoo,
+    PerformanceAnalytics,
+    numDeriv,
+    xts,
+    tseries
+RoxygenNote: 6.1.0
+Date/Publication: 2018-08-06 00:45:37
