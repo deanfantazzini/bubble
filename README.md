@@ -15,3 +15,5 @@ You can install the package using the commands:
 if (!require("devtools")) install.packages("devtools")
 devtools::install_github("deanfantazzini/bubble")
 ```
+
+[![Travis build status](https://travis-ci.org/deanfantazzini/bubble.svg?branch=master)](https://travis-ci.org/deanfantazzini/bubble)
