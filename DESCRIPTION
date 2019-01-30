@@ -23,5 +23,5 @@ Imports:
     numDeriv,
     xts,
     tseries
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Date/Publication: 2018-08-06 00:45:37
