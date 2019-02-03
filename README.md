@@ -1,6 +1,7 @@
 ## bubble
 
 [![Travis build status](https://travis-ci.org/deanfantazzini/bubble.svg?branch=master)](https://travis-ci.org/deanfantazzini/bubble)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/deanfantazzini/bubble?branch=master&svg=true)](https://ci.appveyor.com/project/deanfantazzini/bubble)
 
 The `bubble` package and the `bitcoinFinance` package will be the companion materials for a textbook I am working on. This forthcoming book wants to
 organize the materials that I developed over time for the Perm Summer/Winter School on Blockchain and CryptoEconomics, as well as for my course in Numerical
