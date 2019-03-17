@@ -537,7 +537,7 @@ size_GSADF <- function(qe, m, T, r0, lag ,select, cv, clust_number){
 #' qe <-c(0.90,0.95,0.99)    #quantiles
 #' m <- 1000
 #' T=length(SP_DV[,1])
-#' cv_sadf<- CV_SADF(qe,m,T,r0, address)
+#' cv_sadf<- CV_SADF(qe,m,T,r0, address, clust_number=7)
 #' cat(sadf_test$sadf, cv_sadf, sep = "\t")
 #' }
 
@@ -599,7 +599,7 @@ SADF_Y <- function(y, r0, lag ,select,clust_number){
 #' m <- 1000
 #' T=length(SP_DV[,1])
 #' clust_number=7
-#' cv_gsadf<- CV_GSADF(qe,m,T,r0, address)
+#' cv_gsadf<- CV_GSADF(qe,m,T,r0, clust_number=7, address)
 #' cat(gsadf_test$gsadf, cv_gsadf, sep = "\t")
 #' }
 GSADF_Y <- function(y, r0, lag ,select,clust_number){

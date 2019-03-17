@@ -40,7 +40,7 @@ sadf_test <-SADF_Y(SP_DV[,1], r0, 0 ,"Fixed",clust_number=8)
 qe <-c(0.90,0.95,0.99)    #quantiles
 m <- 1000
 T=length(SP_DV[,1])
-cv_sadf<- CV_SADF(qe,m,T,r0, address)
+cv_sadf<- CV_SADF(qe,m,T,r0, address, clust_number=7)
 cat(sadf_test$sadf, cv_sadf, sep = "\\t")
 }
 }

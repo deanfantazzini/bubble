@@ -42,7 +42,7 @@ qe <-c(0.90,0.95,0.99)    #quantiles
 m <- 1000
 T=length(SP_DV[,1])
 clust_number=7
-cv_gsadf<- CV_GSADF(qe,m,T,r0, address)
+cv_gsadf<- CV_GSADF(qe,m,T,r0, clust_number=7, address)
 cat(gsadf_test$gsadf, cv_gsadf, sep = "\\t")
 }
 }
