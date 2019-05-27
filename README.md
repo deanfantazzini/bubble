@@ -4,9 +4,7 @@
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/deanfantazzini/bubble?branch=master&svg=true)](https://ci.appveyor.com/project/deanfantazzini/bubble)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-The `bubble` package and the `bitcoinFinance` package will be the companion materials for a textbook I am working on. This forthcoming book wants to
-organize the materials that I developed over time for the Perm Summer/Winter School on Blockchain and CryptoEconomics, as well as for my course in Numerical
-methods for finance using R.
+The `bubble` package and the `bitcoinFinance` package are the companion materials for my textbook titled [Quantitative Finance with R and Cryptocurrencies](https://www.amazon.com/dp/1090685319?ref_=pe_3052080_397514860). This book organizes the materials that I developed over time for the Perm Summer/Winter School on Blockchain and CryptoEconomics, as well as for my course in Numerical methods for finance using R.
 
 The `bubble` package implements several models proposed to test for financial bubbles and explosive behaviour. These tests span several fields of research, 
   from economics to econophysics, from statistics to computer science.
