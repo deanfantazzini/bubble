@@ -4,8 +4,14 @@
 \alias{lppl.confidence.trust.B}
 \title{Compute the LPPLS Confidence and Trust indicators  which satisfy the filtering conditions used by Fantazzini (2016)}
 \usage{
-lppl.confidence.trust.B(x, time.scale, max.window, step.shrinking.window,
-  boot.rep, clust_number)
+lppl.confidence.trust.B(
+  x,
+  time.scale,
+  max.window,
+  step.shrinking.window,
+  boot.rep,
+  clust_number
+)
 }
 \arguments{
 \item{x}{is a T x 1 numeric data vector (or xts object)}

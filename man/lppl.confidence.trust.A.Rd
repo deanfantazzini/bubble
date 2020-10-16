@@ -4,8 +4,14 @@
 \alias{lppl.confidence.trust.A}
 \title{Compute the LPPLS Confidence and Trust indicators which satisfy the filtering condition 1 and 2, respectively, in Table 1 by Sornette et al. (2015)}
 \usage{
-lppl.confidence.trust.A(x, time.scale, max.window, step.shrinking.window,
-  boot.rep, clust_number)
+lppl.confidence.trust.A(
+  x,
+  time.scale,
+  max.window,
+  step.shrinking.window,
+  boot.rep,
+  clust_number
+)
 }
 \arguments{
 \item{x}{is a T x 1 numeric data vector (or xts object)}

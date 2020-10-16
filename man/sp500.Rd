@@ -4,10 +4,12 @@
 \name{sp500}
 \alias{sp500}
 \title{Monthly SP500 index from 1791 till 2015 adjusted for dividends and splits.}
-\format{A xts object with 2690 rows and 1 variable:
+\format{
+A xts object with 2690 rows and 1 variable:
 \describe{
   \item{price.adj}{SP500 index, ajusted for dividends and splits from 1791M8 till 2015M9}
-}}
+}
+}
 \source{
 \url{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FZUQDM}
 }

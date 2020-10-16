@@ -41,6 +41,6 @@ qe <-c(0.90,0.95,0.99)    #quantiles
 m <- 1000
 T=length(SP_DV[,1])
 cv_sadf<- CV_SADF(qe,m,T,r0, address, clust_number=7)
-cat(sadf_test$sadf, cv_sadf, sep = "\\t")
+cat(sadf_test$sadf, cv_sadf, sep = "\t")
 }
 }

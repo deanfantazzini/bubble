@@ -4,8 +4,15 @@
 \alias{optimal.time.scale}
 \title{Best time-scale according to the approach by Watanabe et al. (2007a,b)}
 \usage{
-optimal.time.scale(xdat, maxlag = 10, min.win = 10, max.win = 20,
-  n.replications = 2000, clust_number = 8, original = TRUE)
+optimal.time.scale(
+  xdat,
+  maxlag = 10,
+  min.win = 10,
+  max.win = 20,
+  n.replications = 2000,
+  clust_number = 8,
+  original = TRUE
+)
 }
 \arguments{
 \item{xdat}{is a T x 1 numeric data vector}

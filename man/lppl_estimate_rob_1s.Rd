@@ -4,8 +4,11 @@
 \alias{lppl_estimate_rob_1s}
 \title{1st step LPPL estimation procedure  by Geraskin and Fantazzini (2013) and Fantazzini(2016)}
 \usage{
-lppl_estimate_rob_1s(x, par_start = c(bet = 0.5, ome = 6, A =
-  log(x[NROW(x)]), B = 0, C1 = 0, C2 = 0), max.win.tc = 0.1)
+lppl_estimate_rob_1s(
+  x,
+  par_start = c(bet = 0.5, ome = 6, A = log(x[NROW(x)]), B = 0, C1 = 0, C2 = 0),
+  max.win.tc = 0.1
+)
 }
 \arguments{
 \item{x}{is a T x 1 data vector}
